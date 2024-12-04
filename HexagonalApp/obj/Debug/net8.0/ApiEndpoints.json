@@ -1,0 +1,64 @@
+[
+  {
+    "ContainingType": "HexagonalApp.Api.Controllers.ClientsController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/Clients/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Client",
+        "Type": "HexagonalApp.Domain.Dtos.ClientDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "CreateClients"
+  },
+  {
+    "ContainingType": "HexagonalApp.Api.Controllers.ClientsController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Clients/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DeleteClients"
+  },
+  {
+    "ContainingType": "HexagonalApp.Api.Controllers.ClientsController",
+    "Method": "GetAsync",
+    "RelativePath": "api/Clients/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetClients"
+  },
+  {
+    "ContainingType": "HexagonalApp.Api.Controllers.ClientsController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Clients/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Data",
+        "Type": "HexagonalApp.Domain.Dtos.ClientDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateClients"
+  }
+]

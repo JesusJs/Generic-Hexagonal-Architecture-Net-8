@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalApp.Api", "HexagonalApp.Api.csproj", "{08A7C4E4-064A-48B3-AA88-1FE49D42ED1F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52A36541-3A35-414A-A8AC-E867B1EC7D4D} = {52A36541-3A35-414A-A8AC-E867B1EC7D4D}
+		{CB61C919-491C-45D8-A1AB-2CDD5686CB26} = {CB61C919-491C-45D8-A1AB-2CDD5686CB26}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalApp.Infrastructure", "..\HexagonalApp.Infrastructure\HexagonalApp.Infrastructure.csproj", "{5E406057-ABD6-487F-B24A-39A272E344DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52A36541-3A35-414A-A8AC-E867B1EC7D4D} = {52A36541-3A35-414A-A8AC-E867B1EC7D4D}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E7C0DC0D-A55C-4D96-9ABF-10D6BE66C84C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{57361DB8-1626-4F80-80E0-0BFED962E42F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalApp.Application", "..\HexagonalApp.Application\HexagonalApp.Application.csproj", "{52A36541-3A35-414A-A8AC-E867B1EC7D4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{7E24D165-0E44-4F93-A8CD-B3AA969A984A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalApp.Domain", "..\HexagonalApp.Domain\HexagonalApp.Domain.csproj", "{CB61C919-491C-45D8-A1AB-2CDD5686CB26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08A7C4E4-064A-48B3-AA88-1FE49D42ED1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A7C4E4-064A-48B3-AA88-1FE49D42ED1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A7C4E4-064A-48B3-AA88-1FE49D42ED1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A7C4E4-064A-48B3-AA88-1FE49D42ED1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E406057-ABD6-487F-B24A-39A272E344DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E406057-ABD6-487F-B24A-39A272E344DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E406057-ABD6-487F-B24A-39A272E344DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E406057-ABD6-487F-B24A-39A272E344DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A36541-3A35-414A-A8AC-E867B1EC7D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A36541-3A35-414A-A8AC-E867B1EC7D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A36541-3A35-414A-A8AC-E867B1EC7D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A36541-3A35-414A-A8AC-E867B1EC7D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB61C919-491C-45D8-A1AB-2CDD5686CB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB61C919-491C-45D8-A1AB-2CDD5686CB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB61C919-491C-45D8-A1AB-2CDD5686CB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB61C919-491C-45D8-A1AB-2CDD5686CB26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08A7C4E4-064A-48B3-AA88-1FE49D42ED1F} = {E7C0DC0D-A55C-4D96-9ABF-10D6BE66C84C}
+		{5E406057-ABD6-487F-B24A-39A272E344DC} = {E7C0DC0D-A55C-4D96-9ABF-10D6BE66C84C}
+		{52A36541-3A35-414A-A8AC-E867B1EC7D4D} = {57361DB8-1626-4F80-80E0-0BFED962E42F}
+		{CB61C919-491C-45D8-A1AB-2CDD5686CB26} = {7E24D165-0E44-4F93-A8CD-B3AA969A984A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68352766-98D5-4EF6-98F7-B7CA21D42F2D}
+	EndGlobalSection
+EndGlobal

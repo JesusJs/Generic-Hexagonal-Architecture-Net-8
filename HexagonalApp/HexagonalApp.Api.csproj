@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HexagonalApp.Application\HexagonalApp.Application.csproj" />
+    <ProjectReference Include="..\HexagonalApp.Domain\HexagonalApp.Domain.csproj" />
+    <ProjectReference Include="..\HexagonalApp.Infrastructure\HexagonalApp.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

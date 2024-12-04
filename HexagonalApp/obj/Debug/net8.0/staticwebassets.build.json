@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qmKQ8eiC8pUHSfF8T4ktd/nKm4zpGclpwhE8yaaZuuM=",
+  "Source": "HexagonalApp.Api",
+  "BasePath": "_content/HexagonalApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
