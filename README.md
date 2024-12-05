@@ -83,5 +83,6 @@ El diseño genérico permite agregar nuevas funcionalidades sin comprometer la a
 - Soporte para múltiples dominios.
 - Ampliación de los controladores para incluir autenticación y autorización.
 - Integración con servicios externos como colas de mensajes o APIs de terceros.
+- Configurar la arquitectura que se adapte a tus necesidades.
 
 
