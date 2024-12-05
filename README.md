@@ -10,9 +10,10 @@ Este proyecto implementa una arquitectura hexagonal genérica utilizando .NET 8.
 La capa de **Domain** es el corazón de la arquitectura, donde se define la lógica de negocio y las reglas que rigen el sistema. Esta capa es totalmente independiente de las tecnologías externas y contiene:
 
 - **Entidades:** Representan los objetos principales del dominio.
+- **Modelos:** Definen la estructura de los datos del dominio que son utilizados por las entidades y otros componentes.
 - **Interfaces:** Definen contratos que deben ser implementados por las capas externas (como repositorios o servicios).
 - **Agregados:** Se utiliza para agrupar lógicas relacionadas dentro del dominio, si es necesario.
-- - **DTOs:** Objetos de transferencia de datos para manejar la información que viaja entre las capas.
+- **DTOs:** Objetos de transferencia de datos para manejar la información que viaja entre las capas.
 - **Mappers:** Utilizados para transformar datos entre entidades, modelos y DTOs.
 - **Handler de Errores:** Una clase genérica para gestionar errores de forma centralizada, asegurando que las respuestas sean consistentes y claras.
 
